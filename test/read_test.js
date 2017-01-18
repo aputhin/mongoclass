@@ -2,7 +2,6 @@ const assert = require('assert');
 const User = require('../src/user');
 
 describe('Reading users out of the database', () => {
-  "use strict";
   let joe;
   
   beforeEach((done) => {

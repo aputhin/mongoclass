@@ -2,7 +2,6 @@ const assert = require('assert');
 const User = require('../src/user');
 
 describe('Updates users', () => {
-  "use strict";
   let joe;
 
   beforeEach((done) => {

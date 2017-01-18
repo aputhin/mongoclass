@@ -12,6 +12,10 @@ const UserSchema = new Schema({
     required: [true, 'Name is required']
   },
   likes: Number,
+  blogPosts: [{ 
+    type: Schema.Types.ObjectId,
+    ref: 'blogPost'
+  }],
   posts: [PostSchema],
 });
 
